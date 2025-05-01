@@ -6,15 +6,15 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: ""
+  # version: ""
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
-  #maven:
-  #  groupId: net.wasdev.wlp.sample
-  #  artifactId: ferret
-  #  version: 1.2
-  #  type: war
+  maven:
+   groupId: net.wasdev.wlp.sample
+   artifactId: ferret
+   version: 1.2
+   type: war
 
   # Set minimum and maximum number of instances of the application. 
   # If the minimum and maximum values are different, the service scales the
