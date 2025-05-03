@@ -9,7 +9,7 @@ app:
   # version: ""
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
-  # "Deploy, and run" scenario.
+  # "Deploy, and run"  scenario.
   maven:
    groupId: net.wasdev.wlp.sample
    artifactId: ferret
