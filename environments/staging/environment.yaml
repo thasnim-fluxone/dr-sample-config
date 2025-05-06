@@ -10,10 +10,16 @@ app:
   
   # Set the Maven coordinates of the  Maven artifact to  deploy  for  the 
   # "Deploy, and run" scenario.
+  # maven:
+  #  groupId: net.wasdev.wlp.sample
+  #  artifactId: ferret
+  #  version: "1.2"
+  #  type: war
+
   maven:
-   groupId: net.wasdev.wlp.sample
-   artifactId: ferret
-   version: "1.2"
+   groupId: org.appfuse
+   artifactId: appfuse-web
+   version: "2.2.2"
    type: war
 
   # Set minimum and maximum number of instances of   the  application. 
