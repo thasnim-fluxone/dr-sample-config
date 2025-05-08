@@ -20,7 +20,7 @@ app:
   # If the minimum and maximum values are different, the service  scales the
   # instances up and down based on the CPU utilization.
   instances:
-    # The minimum number of instances. Must be at least 1. For 
+    # The minimum number of instances. Must be at  least 1. For 
     # high-availability support, set this value to at least 3. The service
     # spreads instances among different availability zones. 
     # Defaults to 1 if not set.
